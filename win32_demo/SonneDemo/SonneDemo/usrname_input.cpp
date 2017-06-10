@@ -4,6 +4,7 @@
 #include "usrname_input.h"
 
 HINSTANCE g_hInst;
+HWND g_win_hwnd;
 
 
 ATOM NewMyRegisterClass(HINSTANCE hInstance)
@@ -46,6 +47,7 @@ BOOL NewInitInstance(HINSTANCE hInstance, HWND hWndPar, int nCmdShow)
 
 	hWnd = CreateWindow(L"usrname_inpt", L"77676",   
 		WS_OVERLAPPEDWINDOW, 100, 80, 600, 400, hWndPar, NULL, hInstance, NULL); 
+	g_win_hwnd = hWnd;
 	// hWnd=CreateDialog(hInstance,MAKEINTRESOURCE(IDD_FORMVIEW1),NULL,0);  
 	if (!hWnd)
 	{
@@ -67,7 +69,7 @@ BOOL NewInitInstance(HINSTANCE hInstance, HWND hWndPar, int nCmdShow)
 
 // 处理对话框消息  
 INT_PTR CALLBACK NewDlgProc(HWND hdlg, UINT msg, WPARAM wParam, LPARAM lParam)  
-{  
+{ 
 	int ret_num;
 	HWND hwnd;
 	WCHAR buff[32];
@@ -75,17 +77,19 @@ INT_PTR CALLBACK NewDlgProc(HWND hdlg, UINT msg, WPARAM wParam, LPARAM lParam)
 	{  
 	case WM_COMMAND:  
 		{  
-			switch(LOWORD(wParam))  {  
+			switch(LOWORD(wParam))  { 
 			case IDC_BUTTON3: 
-				
+
 				ret_num = GetDlgItemText(hdlg,IDC_EDIT1,buff,32);
 
 				//注释部分是另一种获取文本框文本的写法
 				hwnd = GetDlgItem(hdlg,IDC_EDIT1); 
 				ret_num = GetWindowText(hwnd, buff, 32 );
-				
+
 				MessageBox(hdlg, buff, L"提示", MB_OK | MB_ICONINFORMATION); 
-				break;  
+
+				SendMessage(g_win_hwnd, WM_CLOSE, 0, 0);
+				break; 
 			default:  
 				break;  
 			}  

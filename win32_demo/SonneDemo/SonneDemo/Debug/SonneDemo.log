@@ -1,16 +1,17 @@
-﻿生成启动时间为 2017/6/10 10:58:14。
+﻿生成启动时间为 2017/6/10 17:47:42。
      1>项目“D:\c_workspace\SonneDemo\SonneDemo\SonneDemo.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\software\vs_2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SonneDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt usrname_input.cpp
-         usrname_input.cpp
+         D:\software\vs_2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SonneDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SonneDemo.cpp
+         SonneDemo.cpp
+     1>d:\c_workspace\sonnedemo\sonnedemo\sonnedemo.cpp(139): warning C4101: “txt”: 未引用的局部变量
        Link:
          D:\software\vs_2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c_workspace\SonneDemo\Debug\SonneDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\c_workspace\SonneDemo\Debug\SonneDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c_workspace\SonneDemo\Debug\SonneDemo.lib" /MACHINE:X86 Debug\SonneDemo.res
          Debug\SonneDemo.obj
          Debug\stdafx.obj
          Debug\usrname_input.obj
-     1>LINK : fatal error LNK1168: 无法打开 D:\c_workspace\SonneDemo\Debug\SonneDemo.exe 进行写入
-     1>已完成生成项目“D:\c_workspace\SonneDemo\SonneDemo\SonneDemo.vcxproj”(Build 个目标)的操作 - 失败。
+         SonneDemo.vcxproj -> D:\c_workspace\SonneDemo\Debug\SonneDemo.exe
+     1>已完成生成项目“D:\c_workspace\SonneDemo\SonneDemo\SonneDemo.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.36
+已用时间 00:00:01.07
