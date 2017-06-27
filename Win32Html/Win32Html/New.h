@@ -2,6 +2,7 @@
 #include <htmlayout.h>
 #include "behaviors/notifications.h"
 #include <htmlayout_behavior.hpp>
+#include "new_msg_tip.h"
 
 namespace NEW
 {
@@ -9,18 +10,16 @@ namespace NEW
 	#define MAX_LOADSTRING 100
 	// 全局变量:
 	HINSTANCE hInst;								// 当前实例
-	TCHAR szTitle[MAX_LOADSTRING];					// 标题栏文本
-	TCHAR szWindowClass[MAX_LOADSTRING];			// 主窗口类名
 	HWND hwnd;
 
 	// 此代码模块中包含的函数的前向声明:
 	ATOM				MyRegisterClass(HINSTANCE hInstance);
 	BOOL				InitInstance(HINSTANCE, int);
-	LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
-	INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+	LRESULT CALLBACK    NewWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+	void                OnButtonClick(HELEMENT button);
 
 
-		//************************************
+    //************************************
 	// 作      者:	sonne
 	// 函  数  名:  InitList
 	// 功      能:  窗口初始化函数
@@ -42,7 +41,6 @@ namespace NEW
 		SetWindowText(hwnd,"NAME LIST");
 	}
 
-	void OnButtonClick(HELEMENT button);
 
 	struct DOMEventsHandlerType: htmlayout::event_handler
 	{
@@ -110,7 +108,7 @@ namespace NEW
 	}
 
     //
-	//  函数: WndProc(HWND, UINT, WPARAM, LPARAM)
+	//  函数: NewWndProc(HWND, UINT, WPARAM, LPARAM)
 	//
 	//  目的: 处理主窗口的消息。
 	//  作者: sonne
@@ -158,9 +156,6 @@ namespace NEW
             wmEvent = HIWORD(wParam);
             switch (wmId)
             {
-                case IDM_ABOUT:
-                   DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
-                   break;
                 case IDM_EXIT:
                    DestroyWindow(hWnd);
                    break;
@@ -182,7 +177,7 @@ namespace NEW
 	}
 
 	//
-	//  函数: MyRegisterClass()
+	//  函数: NewRegisterClass()
 	//
 	//  目的: 注册窗口类。
 	//  作者: sonne
@@ -268,26 +263,6 @@ namespace NEW
 	    return TRUE;
 	}
 
-	// “关于”框的消息处理程序。
-	INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
-	{
-		UNREFERENCED_PARAMETER(lParam);
-		switch (message)
-		{
-		case WM_INITDIALOG:
-			return (INT_PTR)TRUE;
-
-		case WM_COMMAND:
-			if (LOWORD(wParam) == IDOK || LOWORD(wParam) == IDCANCEL)
-			{
-				EndDialog(hDlg, LOWORD(wParam));
-				return (INT_PTR)TRUE;
-			}
-			break;
-		}
-		return (INT_PTR)FALSE;
-	}
-
 	
 	//************************************
 	// 作      者:	sonne
@@ -318,7 +293,6 @@ namespace NEW
 			htmlayout::dom::element selName;
 			selName = nameList.find_first("option:checked");
 			selName.destroy();
-			SetWindowText(hwnd,"NAME LIST");
 		}
 		if (!wcscmp(cBut.get_attribute("id"),L"EDI"))
 		{
@@ -329,7 +303,10 @@ namespace NEW
 			htmlayout::dom::element selName;
 			selName = nameList.find_first("option:checked");
 			selName.set_value("Iamwho");
-			SetWindowText(hwnd,"NAME LIST");
+		}
+		if (!wcscmp(cBut.get_attribute("id"),L"MSG"))
+		{
+			MY_MSG::create_my_tip(hInst, "2222");
 		}
 	}
 

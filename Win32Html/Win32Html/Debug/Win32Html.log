@@ -1,4 +1,4 @@
-﻿生成启动时间为 2017/4/5 11:27:44。
+﻿生成启动时间为 2017/6/27 15:34:02。
      1>项目“D:\c_workspace\Win32Html\Win32Html\Win32Html.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\software\vs_2012\VC\bin\CL.exe /c /ID:\c_workspace\HTMLayoutSDK\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Win32Html.cpp
@@ -12,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:01.44
+已用时间 00:00:01.25
