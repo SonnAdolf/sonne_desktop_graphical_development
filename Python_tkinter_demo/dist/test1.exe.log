@@ -1,0 +1,16 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1345, in __call__
+  File "test1.py", line 12, in choose_directory
+NameError: global name 'tgsoftware' is not defined
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1345, in __call__
+  File "test1.py", line 14, in choose_directory
+  File "os.pyc", line 159, in makedirs
+OSError: [Errno 22] Invalid argument: 'C:/Users/sonne/Desktop\tg_software'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1345, in __call__
+  File "test1.py", line 16, in choose_directory
+AttributeError: ZipFile instance has no attribute 'extractall'

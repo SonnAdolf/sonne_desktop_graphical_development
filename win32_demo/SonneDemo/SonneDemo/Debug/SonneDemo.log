@@ -1,17 +1,23 @@
-﻿生成启动时间为 2017/6/10 17:47:42。
-     1>项目“D:\c_workspace\SonneDemo\SonneDemo\SonneDemo.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2017/7/13 9:47:50。
+     1>项目“D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\SonneDemo\SonneDemo.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\software\vs_2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SonneDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SonneDemo.cpp
+         D:\software\vs_2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SonneDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\software\vs_2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SonneDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SonneDemo.cpp usrname_input.cpp
+         usrname_input.cpp
          SonneDemo.cpp
-     1>d:\c_workspace\sonnedemo\sonnedemo\sonnedemo.cpp(139): warning C4101: “txt”: 未引用的局部变量
+     1>d:\c_workspace\sonne_desktop_graphical_development\win32_demo\sonnedemo\sonnedemo\sonnedemo.cpp(135): warning C4101: “txt”: 未引用的局部变量
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\SonneDemo.res" SonneDemo.rc 
        Link:
-         D:\software\vs_2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c_workspace\SonneDemo\Debug\SonneDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\c_workspace\SonneDemo\Debug\SonneDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c_workspace\SonneDemo\Debug\SonneDemo.lib" /MACHINE:X86 Debug\SonneDemo.res
+         D:\software\vs_2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\Debug\SonneDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\Debug\SonneDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\Debug\SonneDemo.lib" /MACHINE:X86 Debug\SonneDemo.res
          Debug\SonneDemo.obj
          Debug\stdafx.obj
          Debug\usrname_input.obj
-         SonneDemo.vcxproj -> D:\c_workspace\SonneDemo\Debug\SonneDemo.exe
-     1>已完成生成项目“D:\c_workspace\SonneDemo\SonneDemo\SonneDemo.vcxproj”(Build 个目标)的操作。
+         SonneDemo.vcxproj -> D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\Debug\SonneDemo.exe
+     1>已完成生成项目“D:\c_workspace\sonne_desktop_graphical_development\win32_demo\SonneDemo\SonneDemo\SonneDemo.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.07
+已用时间 00:00:05.21
