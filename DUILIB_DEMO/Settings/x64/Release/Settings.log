@@ -1,8 +1,327 @@
-﻿  ManageCurDevSynch.cpp
-ManageCurDevSynch.cpp(77): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
+﻿  add_admin.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_admin.cpp(36): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_admin.cpp(37): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_admin.cpp(22): warning C4101: “wcharBuf”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_admin.cpp(81): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  add_cert.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  add_user1.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_user1.cpp(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_user1.cpp(50): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\add_user1.cpp(51): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  add_user_finger.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  admins.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\admins.cpp(50): warning C4244: “初始化”: 从“UINT_PTR”转换到“int”，可能丢失数据
   admin_login.cpp
-admin_login.cpp(76): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  certs.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  cert_manage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(40): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(39): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(53): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(52): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(141): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\cert_manage.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  CheckCurDevFingers.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  CurDevCerts.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  CurUserManageMenuWnd.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  CurUsersManageSynchMenuWnd.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\curusersmanagesynchmenuwnd.cpp(91): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  EditCert.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\editcert.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  EditFingerName.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\editfingername.cpp(35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  EditUser.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\edituser.cpp(35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ManageCurDevSynch.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\managecurdevsynch.cpp(77): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
+  dev_manage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\dev_manage.cpp(123): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
+  file_utils.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(16): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(12): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\direct.h(94): note: 参见“getcwd”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(15): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\direct.h(94): note: 参见“getcwd”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(53): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(54): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(55): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(60): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(61): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(62): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(74): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(140): warning C4101: “re”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(165): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(229): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\file_utils.cpp(227): warning C4101: “re”: 未引用的局部变量
+  finger_manage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  logs.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  正在编译...
+  main_win.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(19): warning C4101: “ret”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(85): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(107): warning C4101: “iCloseDevRet”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\main_win.cpp(194): warning C4101: “e”: 未引用的局部变量
+  ManageCurDevNotSynch.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\managecurdevnotsynch.cpp(97): warning C4244: “初始化”: 从“UINT_PTR”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\managecurdevnotsynch.cpp(110): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
+  Menu3.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menu3.cpp(54): warning C4101: “num”: 未引用的局部变量
+  MenuCertManage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menucertmanage.cpp(104): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  MenuFingerManage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menufingermanage.cpp(73): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menufingermanage.cpp(74): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  MenuWnd.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  MenuWnd2.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menuwnd2.cpp(141): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  MenuWnd3.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menuwnd3.cpp(63): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\menuwnd3.cpp(64): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  my_log.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\my_log.cpp(23): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+  page_info.cpp
+  page_utils.cpp
+  sel_user_impt.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(44): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(43): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(57): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(56): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(136): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(135): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sel_user_impt.cpp(155): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Settings.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\settings.cpp(79): warning C4101: “ret”: 未引用的局部变量
+  sqlite_utils.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(238): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(240): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(279): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(380): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(381): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(446): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(447): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(505): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(506): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(696): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(697): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1033): warning C4305: “return”: 从“int”到“bool”截断
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1053): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1054): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1100): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1101): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1147): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1148): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1200): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1197): warning C4101: “tmpCerts”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1398): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1410): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1453): warning C4101: “rnum”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1453): warning C4101: “j”: 未引用的局部变量
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1576): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1554): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1555): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1601): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1602): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1650): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1651): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1839): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1851): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1894): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1927): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1928): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1936): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(1989): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2000): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2002): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2030): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2031): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2055): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2056): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2088): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\sqlite_utils.cpp(2089): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  str_utils.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(267): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(284): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(293): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(306): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(312): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%04x”需要类型“unsigned int *”的参数，但可变参数 2 拥有了类型“unsigned short *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%04x”需要类型“unsigned int *”的参数，但可变参数 3 拥有了类型“unsigned short *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 4 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 5 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 6 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 7 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 8 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 9 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 10 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): warning C4477: “sscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 11 拥有了类型“unsigned char *”
+  d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(512): note: 请考虑在格式字符串中使用“%hhx”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(570): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(571): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(582): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(583): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  user_manage.cpp
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(86): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(89): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(123): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(125): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(176): warning C4244: “初始化”: 从“UINT_PTR”转换到“int”，可能丢失数据
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\user_manage.cpp(181): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
   正在生成代码
-c:\users\sonne\desktop\duilib_demo\settings\str_utils.cpp(632): warning C4700: 使用了未初始化的局部变量“crc”
+d:\c_workspace\sonne_win_demo\duilib_demo\settings\str_utils.cpp(632): warning C4700: 使用了未初始化的局部变量“crc”
+  All 1380 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  Settings.vcxproj -> C:\Users\sonne\Desktop\DUILIB_DEMO\x64\Release\DUILIB_DEMO.exe
+  Settings.vcxproj -> D:\c_workspace\sonne_win_demo\DUILIB_DEMO\x64\Release\DUILIB_DEMO.exe
