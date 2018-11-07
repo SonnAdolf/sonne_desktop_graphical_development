@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>身份认证系统</title>
+	<style type="text/css">
+		body {
+			height: 250px;
+		}
+		#my_header {
+			left: 0;
+			right: 0;
+			 position: fixed;
+			top:0;
+			height:60px;
+			width:100%;
+			background-color:black;
+			margin: 0 0 0 0;
+		}
+		#btns_area {
+		    position:relative;
+			top:80px;
+			height:100px;
+			width:300px;
+		}
+		.exit_but1 { 
+			position:relative;
+			top:10px;
+			background:url(images/close_but1.png) top left no-repeat; 
+			border:none;
+			width:104px; 
+			height:39px; 
+			cursor:pointer;
+			float:right;
+		}
+		.exit_but1:active {
+			position:relative;
+			top:10px;
+			background:url(images/close_but2.png) top left no-repeat;
+			border:none; 
+			width:104px; 
+			height:39px;
+			float:right;
+		}
+		.next_page_but1 { 
+			position:relative;
+			top:10px;
+			background:url(images/yesdelete_but1.png) top left no-repeat; 
+			border:none;
+			width:104px; 
+			height:39px; 
+			cursor:pointer;
+		}
+		.next_page_but1:active {
+			position:relative;
+			top:10px;
+			background:url(images/yesdelete_but2.png) top left no-repeat;
+			border:none; 
+			width:104px; 
+			height:39px;
+		}
+		.pre_page_but1 { 
+			position:relative;
+			top:10px;
+			background:url(images/nodelete_but1.png) top left no-repeat; 
+			border:none;
+			width:104px; 
+			height:39px; 
+			cursor:pointer;
+		}
+		.pre_page_but1:active {
+			position:relative;
+			top:10px;
+			background:url(images/nodelete_but2.png) top left no-repeat;
+			border:none; 
+			width:104px; 
+			height:39px;
+		}
+		#bottom {
+			position:fixed;
+			bottom:0;
+			height:20px;
+			width:100%;
+			left:0;
+			right:0;
+			background-color:black;
+		}
+    </style>
+</head>
+
+<body>
+    <div id = "my_header">
+		<input type = "button" id = "EXIT"  class = "exit_but1"/>
+	</div>
+	<div id = btns_area>
+		<input type = "button" id = "yes_delete" class = "next_page_but1"/>
+		<input type = "button" id = "no_delete" class = "pre_page_but1"/>
+	</div>
+	<div id = "bottom">
+	</div>
+</body>
+</html>

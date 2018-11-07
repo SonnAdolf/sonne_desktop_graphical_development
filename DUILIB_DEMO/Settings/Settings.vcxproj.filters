@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="page_info.cpp" />
+    <ClCompile Include="page_utils.cpp" />
+    <ClCompile Include="str_utils.cpp" />
+    <ClCompile Include="file_utils.cpp" />
+    <ClCompile Include="dev_manage.cpp" />
+    <ClCompile Include="MenuWnd.cpp" />
+    <ClCompile Include="user_manage.cpp" />
+    <ClCompile Include="MenuWnd2.cpp" />
+    <ClCompile Include="cert_manage.cpp" />
+    <ClCompile Include="add_cert.cpp" />
+    <ClCompile Include="finger_manage.cpp" />
+    <ClCompile Include="add_user_finger.cpp" />
+    <ClCompile Include="Menu3.cpp" />
+    <ClCompile Include="logs.cpp" />
+    <ClCompile Include="admins.cpp" />
+    <ClCompile Include="MenuWnd3.cpp" />
+    <ClCompile Include="my_log.cpp" />
+    <ClCompile Include="certs.cpp" />
+    <ClCompile Include="main_win.cpp" />
+    <ClCompile Include="MenuFingerManage.cpp" />
+    <ClCompile Include="add_admin.cpp" />
+    <ClCompile Include="add_user1.cpp" />
+    <ClCompile Include="MenuCertManage.cpp" />
+    <ClCompile Include="admin_login.cpp" />
+    <ClCompile Include="sel_user_impt.cpp" />
+    <ClCompile Include="CurUserManageMenuWnd.cpp" />
+    <ClCompile Include="CheckCurDevFingers.cpp" />
+    <ClCompile Include="CurDevCerts.cpp" />
+    <ClCompile Include="CurUsersManageSynchMenuWnd.cpp" />
+    <ClCompile Include="ManageCurDevNotSynch.cpp" />
+    <ClCompile Include="ManageCurDevSynch.cpp" />
+    <ClCompile Include="EditUser.cpp" />
+    <ClCompile Include="EditFingerName.cpp" />
+    <ClCompile Include="EditCert.cpp" />
+    <ClCompile Include="sqlite_utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="my_log.h" />
+    <ClInclude Include="page_info.h" />
+    <ClInclude Include="page_utils.h" />
+    <ClInclude Include="file_utils.h" />
+    <ClInclude Include="my_including.h" />
+    <ClInclude Include="VM661JTcpDLL.h" />
+    <ClInclude Include="str_utils.h" />
+    <ClInclude Include="my_duilib.h" />
+    <ClInclude Include="dev_manage.h" />
+    <ClInclude Include="MenuWnd.h" />
+    <ClInclude Include="user_manage.h" />
+    <ClInclude Include="MenuWnd2.h" />
+    <ClInclude Include="cert_manage.h" />
+    <ClInclude Include="add_cert.h" />
+    <ClInclude Include="finger_manage.h" />
+    <ClInclude Include="add_user_finger.h" />
+    <ClInclude Include="Menu3.h" />
+    <ClInclude Include="logs.h" />
+    <ClInclude Include="admins.h" />
+    <ClInclude Include="MenuWnd3.h" />
+    <ClInclude Include="certs.h" />
+    <ClInclude Include="main_win.h" />
+    <ClInclude Include="MenuFingerManage.h" />
+    <ClInclude Include="add_admin.h" />
+    <ClInclude Include="add_user1.h" />
+    <ClInclude Include="MenuCertManage.h" />
+    <ClInclude Include="admin_login.h" />
+    <ClInclude Include="sqlite3.h" />
+    <ClInclude Include="sel_user_impt.h" />
+    <ClInclude Include="CurUserManageMenuWnd.h" />
+    <ClInclude Include="CheckCurDevFingers.h" />
+    <ClInclude Include="CurDevCerts.h" />
+    <ClInclude Include="CurUsersManageSynchMenuWnd.h" />
+    <ClInclude Include="ManageCurDevNotSynch.h" />
+    <ClInclude Include="ManageCurDevSynch.h" />
+    <ClInclude Include="EditUser.h" />
+    <ClInclude Include="EditFingerName.h" />
+    <ClInclude Include="EditCert.h" />
+    <ClInclude Include="sqlite_utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Settings.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Setup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

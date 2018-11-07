@@ -1,0 +1,105 @@
+﻿生成启动时间为 2017/12/5 11:10:10。
+     1>项目“D:\c_workspace\duilib\DuiLib\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         D:\software\vs_2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Build\Release/DuiLib.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\software\vs_2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Build\Release/DuiLib.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Control\UIActiveX.cpp Control\UIButton.cpp Control\UICheckBox.cpp Control\UICombo.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIGifAnim.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp UIlib.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Utils\WinImplBase.cpp Utils\WndShadow.cpp
+         UIActiveX.cpp
+         UIButton.cpp
+         UICheckBox.cpp
+         UICombo.cpp
+         UIDateTime.cpp
+         UIEdit.cpp
+         UIGifAnim.cpp
+         UILabel.cpp
+     1>Control\UILabel.cpp(90): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Control\UILabel.cpp(433): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Control\UILabel.cpp(458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Control\UILabel.cpp(476): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         UIList.cpp
+         UIOption.cpp
+         UIProgress.cpp
+         UIRichEdit.cpp
+     1>Control\UIRichEdit.cpp(353): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Control\UIRichEdit.cpp(1347): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         UIScrollBar.cpp
+         UISlider.cpp
+         UIText.cpp
+         UITreeView.cpp
+         UIWebBrowser.cpp
+         UIBase.cpp
+     1>Core\UIBase.cpp(295): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+     1>Core\UIBase.cpp(307): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+         UIContainer.cpp
+         UIControl.cpp
+         正在生成代码...
+         正在编译...
+         UIDlgBuilder.cpp
+         UIManager.cpp
+         UIMarkup.cpp
+     1>Core\UIMarkup.cpp(209): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(214): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(489): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(490): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(506): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(514): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+         UIRender.cpp
+     1>Core\UIRender.cpp(2184): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         UIChildLayout.cpp
+         UIHorizontalLayout.cpp
+         UITabLayout.cpp
+         UITileLayout.cpp
+         UIVerticalLayout.cpp
+         UIlib.cpp
+         UIDelegate.cpp
+         Utils.cpp
+         WinImplBase.cpp
+         WndShadow.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\c_workspace\duilib\x64\Release\DuiLib.dll) does not match the Linker's OutputFile property value (D:\c_workspace\duilib\bin\DuiLib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\software\vs_2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/DuiLib.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"D:\c_workspace\duilib\x64\Release\DuiLib.pdb" /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Lib/DuiLib.lib" /MACHINE:X64 /DLL x64\Release\UITreeView.obj
+         x64\Release\StdAfx.obj
+         x64\Release\UIlib.obj
+         x64\Release\WinImplBase.obj
+         x64\Release\stb_image.obj
+         x64\Release\UIDelegate.obj
+         x64\Release\Utils.obj
+         x64\Release\WndShadow.obj
+         x64\Release\XUnzip.obj
+         x64\Release\UIBase.obj
+         x64\Release\UIContainer.obj
+         x64\Release\UIControl.obj
+         x64\Release\UIDlgBuilder.obj
+         x64\Release\UIManager.obj
+         x64\Release\UIMarkup.obj
+         x64\Release\UIRender.obj
+         x64\Release\UIChildLayout.obj
+         x64\Release\UIHorizontalLayout.obj
+         x64\Release\UITabLayout.obj
+         x64\Release\UITileLayout.obj
+         x64\Release\UIVerticalLayout.obj
+         x64\Release\UIActiveX.obj
+         x64\Release\UIButton.obj
+         x64\Release\UICheckBox.obj
+         x64\Release\UICombo.obj
+         x64\Release\UIDateTime.obj
+         x64\Release\UIEdit.obj
+         x64\Release\UIGifAnim.obj
+         x64\Release\UILabel.obj
+         x64\Release\UIList.obj
+         x64\Release\UIOption.obj
+         x64\Release\UIProgress.obj
+         x64\Release\UIRichEdit.obj
+         x64\Release\UIScrollBar.obj
+         x64\Release\UISlider.obj
+         x64\Release\UIText.obj
+         x64\Release\UIWebBrowser.obj
+            正在创建库 ../Lib/DuiLib.lib 和对象 ../Lib/DuiLib.exp
+         DuiLib.vcxproj -> D:\c_workspace\duilib\x64\Release\DuiLib.dll
+     1>已完成生成项目“D:\c_workspace\duilib\DuiLib\DuiLib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.96

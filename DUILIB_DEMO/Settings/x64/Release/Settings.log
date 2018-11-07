@@ -1,0 +1,8 @@
+﻿  ManageCurDevSynch.cpp
+ManageCurDevSynch.cpp(77): warning C4244: “参数”: 从“UINT_PTR”转换到“int”，可能丢失数据
+  admin_login.cpp
+admin_login.cpp(76): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  正在生成代码
+c:\users\sonne\desktop\duilib_demo\settings\str_utils.cpp(632): warning C4700: 使用了未初始化的局部变量“crc”
+  已完成代码的生成
+  Settings.vcxproj -> C:\Users\sonne\Desktop\DUILIB_DEMO\x64\Release\DUILIB_DEMO.exe

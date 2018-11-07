@@ -1,0 +1,171 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "Setup.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,7,0
+ PRODUCTVERSION 1,3,7,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "TODO: 圣点科技"
+            VALUE "FileDescription", "TODO: 指静脉设置程序"
+            VALUE "FileVersion", "1.3.7.0"
+            VALUE "InternalName", "Settings.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2016"
+            VALUE "OriginalFilename", "Settings.exe"
+            VALUE "ProductName", "TODO: 指静脉安全登录系统"
+            VALUE "ProductVersion", "1.3.7.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MASK DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+END
+
+IDD_FORMVIEW DIALOGEX 0, 0, 354, 213
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "密钥导入：",IDC_STATIC,85,131,127,21
+    PUSHBUTTON      "选择密钥文件",IDC_BUTTON1,84,153,169,36
+    EDITTEXT        IDC_EDIT1,84,69,40,15,ES_AUTOHSCROLL
+    LTEXT           "输入证书有效期限：",IDC_STATIC,84,45,73,8
+    EDITTEXT        IDC_EDIT2,147,69,40,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,209,69,40,15,ES_AUTOHSCROLL
+    LTEXT           "年",IDC_STATIC,129,73,9,8
+    LTEXT           "月",IDC_STATIC,195,73,9,8
+    LTEXT           "日",IDC_STATIC,256,73,9,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 353
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MASK AFX_DIALOG_LAYOUT 
+BEGIN
+    0x0000
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

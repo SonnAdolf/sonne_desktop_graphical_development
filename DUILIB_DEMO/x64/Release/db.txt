@@ -1,0 +1,5 @@
+host=localhost
+port=3306
+dbname=tg_55_proj
+user=root
+passwd=huawei.123

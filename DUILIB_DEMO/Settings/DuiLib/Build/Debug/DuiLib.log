@@ -1,0 +1,9 @@
+﻿生成启动时间为 2017/12/5 11:10:15。
+     1>项目“D:\c_workspace\duilib\DuiLib\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for v120_xp (Platform Toolset = 'v120_xp') cannot be found. To build using the v120_xp build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install v120_xp to build using the v120_xp build tools.
+     1>已完成生成项目“D:\c_workspace\duilib\DuiLib\DuiLib.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.00

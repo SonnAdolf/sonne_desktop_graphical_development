@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B5DB94E8-4FED-4709-BDD4-8A99B8B3B579}</ProjectGuid>
+    <RootNamespace>Settings</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>DUILIB_DEMO</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24730.2</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>D:\c_workspace\duilib\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\c_workspace\duilib\DuiLib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>DuiLib;C:\Program Files %28x86%29\Windows Kits\8.1\Include\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>Lib;C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.1A\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\c_workspace\duilib\DuiLib;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\c_workspace\duilib\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>DuiLib;$(IncludePath)</IncludePath>
+    <LibraryPath>Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>D:\c_workspace\HTMLayoutSDK\include;D:\software\MySQL\mysql-5.7.17-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>D:\c_workspace\HTMLayoutSDK\lib;D:\software\MySQL\mysql-5.7.17-winx64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <StackReserveSize>
+      </StackReserveSize>
+      <StackCommitSize>
+      </StackCommitSize>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>D:\software\MySQL\mysql-5.7.17-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <UACUIAccess>false</UACUIAccess>
+      <EnableUAC>true</EnableUAC>
+      <AdditionalLibraryDirectories>D:\software\MySQL\mysql-5.7.17-winx64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACUIAccess>false</UACUIAccess>
+      <EnableUAC>true</EnableUAC>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>1000000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="add_admin.cpp" />
+    <ClCompile Include="add_cert.cpp" />
+    <ClCompile Include="add_user1.cpp" />
+    <ClCompile Include="add_user_finger.cpp" />
+    <ClCompile Include="admins.cpp" />
+    <ClCompile Include="admin_login.cpp" />
+    <ClCompile Include="certs.cpp" />
+    <ClCompile Include="cert_manage.cpp" />
+    <ClCompile Include="CheckCurDevFingers.cpp" />
+    <ClCompile Include="CurDevCerts.cpp" />
+    <ClCompile Include="CurUserManageMenuWnd.cpp" />
+    <ClCompile Include="CurUsersManageSynchMenuWnd.cpp" />
+    <ClCompile Include="EditCert.cpp" />
+    <ClCompile Include="EditFingerName.cpp" />
+    <ClCompile Include="EditUser.cpp" />
+    <ClCompile Include="ManageCurDevSynch.cpp" />
+    <ClCompile Include="dev_manage.cpp" />
+    <ClCompile Include="file_utils.cpp" />
+    <ClCompile Include="finger_manage.cpp" />
+    <ClCompile Include="logs.cpp" />
+    <ClCompile Include="main_win.cpp" />
+    <ClCompile Include="ManageCurDevNotSynch.cpp" />
+    <ClCompile Include="Menu3.cpp" />
+    <ClCompile Include="MenuCertManage.cpp" />
+    <ClCompile Include="MenuFingerManage.cpp" />
+    <ClCompile Include="MenuWnd.cpp" />
+    <ClCompile Include="MenuWnd2.cpp" />
+    <ClCompile Include="MenuWnd3.cpp" />
+    <ClCompile Include="my_log.cpp" />
+    <ClCompile Include="page_info.cpp" />
+    <ClCompile Include="page_utils.cpp" />
+    <ClCompile Include="sel_user_impt.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="sqlite_utils.cpp" />
+    <ClCompile Include="str_utils.cpp" />
+    <ClCompile Include="user_manage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add_admin.h" />
+    <ClInclude Include="add_cert.h" />
+    <ClInclude Include="add_user1.h" />
+    <ClInclude Include="add_user_finger.h" />
+    <ClInclude Include="admins.h" />
+    <ClInclude Include="admin_login.h" />
+    <ClInclude Include="CheckCurDevFingers.h" />
+    <ClInclude Include="CurDevCerts.h" />
+    <ClInclude Include="CurUserManageMenuWnd.h" />
+    <ClInclude Include="certs.h" />
+    <ClInclude Include="cert_manage.h" />
+    <ClInclude Include="CurUsersManageSynchMenuWnd.h" />
+    <ClInclude Include="EditCert.h" />
+    <ClInclude Include="EditFingerName.h" />
+    <ClInclude Include="EditUser.h" />
+    <ClInclude Include="ManageCurDevSynch.h" />
+    <ClInclude Include="dev_manage.h" />
+    <ClInclude Include="file_utils.h" />
+    <ClInclude Include="finger_manage.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="logs.h" />
+    <ClInclude Include="main_win.h" />
+    <ClInclude Include="ManageCurDevNotSynch.h" />
+    <ClInclude Include="Menu3.h" />
+    <ClInclude Include="MenuCertManage.h" />
+    <ClInclude Include="MenuFingerManage.h" />
+    <ClInclude Include="MenuWnd.h" />
+    <ClInclude Include="MenuWnd2.h" />
+    <ClInclude Include="MenuWnd3.h" />
+    <ClInclude Include="my_duilib.h" />
+    <ClInclude Include="my_log.h" />
+    <ClInclude Include="my_including.h" />
+    <ClInclude Include="page_info.h" />
+    <ClInclude Include="page_utils.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sel_user_impt.h" />
+    <ClInclude Include="sqlite3.h" />
+    <ClInclude Include="sqlite_utils.h" />
+    <ClInclude Include="str_utils.h" />
+    <ClInclude Include="user_manage.h" />
+    <ClInclude Include="VM661JTcpDLL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Settings.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Setup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
